@@ -59,5 +59,5 @@ def lda_process_by_data_frame(data_frame_input: DataFrame, column_name: str, num
 
     plot_top_words(lda, tf_vectorizer.get_feature_names(), n_top_words, title, j, 3)
 
-
+# first para: the csv file name, the second para: the column name
 lda_process("selected_app_reviews", "content")
