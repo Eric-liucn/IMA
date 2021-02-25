@@ -102,10 +102,10 @@ def rejoin_words(stemmed_reviews: list):
     return rejoin
 
 
-data_frame = get_dataframe_from_csv("selected_app_reviews")
-data_frame_out = data_pre_process(data_frame, 'content')
-for i in data_frame_out["tokens"].tolist():
-    print(i)
-print("------------------------")
-for i in data_frame_out["filtered_review"].tolist():
-    print(i)
+# data_frame = get_dataframe_from_csv("selected_app_reviews")
+# data_frame_out = data_pre_process(data_frame, 'content')
+# for i in data_frame_out["tokens"].tolist():
+#     print(i)
+# print("------------------------")
+# for i in data_frame_out["filtered_review"].tolist():
+#     print(i)
