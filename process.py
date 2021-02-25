@@ -1,15 +1,12 @@
+# nltk.download('stopwords')
+import re
 import string
 
 import pandas as pd
-import nltk
-
-# nltk.download('stopwords')
-import re
-
 from nltk.corpus import stopwords
-from pandas import DataFrame
-from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+from pandas import DataFrame
 
 
 def get_dataframe_from_csv(file: str):
